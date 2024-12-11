@@ -67,7 +67,7 @@ const uint8_t PROGMEM splash[] = {
 ```
 
 ## Additional Options
-- **Threshold Adjustment**: Modify the `threshold` value in the `image_to_bitmap` function to control the black-and-white conversion. Default is `50`.
+- **Threshold Adjustment**: Modify the `threshold` value in the `image_to_bitmap` function to control the black-and-white conversion. Default is `80`.
 
 ## Developer Information
 - **Author**: Saurav Sajeev

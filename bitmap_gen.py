@@ -1,7 +1,7 @@
 import sys
 from PIL import Image
 
-def image_to_bitmap(image_path, threshold=50):
+def image_to_bitmap(image_path, threshold=80):
     image = Image.open(image_path)
     grayscale_image = image.convert("L")
     bw_image = grayscale_image.point(lambda x: 0 if x < threshold else 1, "1")
